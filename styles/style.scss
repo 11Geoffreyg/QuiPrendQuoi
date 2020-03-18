@@ -1,6 +1,5 @@
-form{
-    border: 1px solid blue;
-    div{
-        border: 1px solid red;
-    }
+@import 'reset', 'vendors/reset.scss';
+h1{
+    font-weight: 900;
+    font-size: 22px;
 }
