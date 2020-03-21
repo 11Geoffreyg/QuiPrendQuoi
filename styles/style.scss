@@ -1,5 +1,37 @@
-@import 'reset', 'vendors/reset.scss';
+@import 'vendors/reset.scss';
+@import 'config/medias.scss';
+@import 'blocs/newParty.scss';
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: beige;
+}
 h1{
     font-weight: 900;
-    font-size: 22px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
 }
+h2,
+form{
+    padding: 10px;
+}
+h2{
+    background-color: brown;
+    color: beige;
+}
+label{
+    display: block;
+}
+input,
+button{
+    padding: 10px;
+    margin: 10px 0px 10px 20px;
+    background-color: beige;
+    border: 2px solid brown;
+    border-radius: 5px;
+    color: black;
+}
+button{
+    background-color: bisque;
+}
+
