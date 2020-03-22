@@ -4,6 +4,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     background-color: beige;
+    width: 100%;
 }
 h1{
     font-weight: 900;
@@ -18,6 +19,7 @@ form{
 h2{
     background-color: brown;
     color: beige;
+    width: 100%;
 }
 label{
     display: block;
@@ -33,5 +35,8 @@ button{
 }
 button{
     background-color: bisque;
+}
+div{
+    width: 100%;
 }
 
